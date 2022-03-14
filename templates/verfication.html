@@ -1,0 +1,10 @@
+{%extends "layout.html"%}
+{%block content%}
+
+<form action="/verfication" method="POST">
+    <p>We have sent a verifcation code your email. Please confirm by typing the code below</p>
+    <input type="text" name="usergivencode">
+    <button type="submit">Confirm</button>
+</form>
+
+{%endblock content%}
